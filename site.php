@@ -9,7 +9,9 @@
 <body>
   
   <?php
-  
+  function sayHi(){
+    echo "Hello User";
+  }
   ?>
 </body>
 </html>
