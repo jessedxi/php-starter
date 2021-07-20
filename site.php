@@ -7,9 +7,11 @@
   <title>Document</title>
 </head>
 <body>
-  <?php ?>
   <form action="site.php" method="get">
     Name: <input type="text" name="name">
+    <input type="submit">
+    <br>
+    <?php  echo $_GET["name"]?>
 </form>
 </body>
 </html>
