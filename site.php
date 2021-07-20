@@ -13,7 +13,8 @@
 <br><br>
   
   <?php
-
+  $grades = array("Jim" =>"A+", "Pam"=>"B-", "Oscar"=>"C+");
+  echo $grades["Jim"];
   ?>
 </body>
 </html>
