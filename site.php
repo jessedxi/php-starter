@@ -9,8 +9,9 @@
 <body>
   <?php
   $friends = array("Kevin", "Karen", "Oscar", "Jim");
-  $friends[1] = "Dwight";
-  echo $friends[1];
+  $friends[4] = "Mike";
+  echo count($friends);
+
   ?>
 </body>
 </html>
