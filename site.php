@@ -12,6 +12,7 @@
  $age = 29;
  $gpa = 3.7;
  $isMale = true;
+ $noValue = null;
   ?>
 </body>
 </html>
