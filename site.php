@@ -8,9 +8,10 @@
 </head>
 <body>
   <?php 
-  echo "<h1> JD's Site </h1>";
-  echo "<hr>";
-  echo "<p> This is my site</p>";
+  echo "There once was a man named George <br>";
+  echo "He was 70 years old <br>";
+  echo "He really liked the name George <br>";
+  echo "But didn't like being 70 <br>;"
   ?>
 </body>
 </html>
