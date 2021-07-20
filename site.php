@@ -7,14 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="site.php" method="post">
-   Password: <input type="password" name="password"> <br>
-    <input type="submit">
-</form>
-<br><br>
-
-<?php 
-echo $_POST["password"];
-?>
+  <?php
+  ?>
 </body>
 </html>
