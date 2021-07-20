@@ -9,6 +9,8 @@
 <body>
   <?php
   $friends = array("Kevin", "Karen", "Oscar", "Jim");
+  $friends[1] = "Dwight";
+  echo $friends[1];
   ?>
 </body>
 </html>
