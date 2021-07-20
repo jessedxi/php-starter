@@ -9,12 +9,14 @@
 <body>
 
 <form action="site.php" method="post">
+  <input type="text" name="student">
 <input type="submit">
+</form>
 <br><br>
   
   <?php
   $grades = array("Jim" =>"A+", "Pam"=>"B-", "Oscar"=>"C+");
-  echo $grades["Jim"];
+  echo $grades[$_POST["student"]];
   ?>
 </body>
 </html>
