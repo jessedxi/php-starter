@@ -12,9 +12,11 @@
   $isMale = false;
   $isTall = true;
   if ($isMale && $isTall) {
-    echo "You're gonna slay on Tinder";
+    echo "You are male or tall";
+  } elseif ($isMale && !$isTall) {
+    echo "You are male but not tall";
   } else {
-    echo "Well, you've got a great personality.";
+    echo "you are not male";
   }
   ?>
 </body>
