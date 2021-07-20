@@ -9,11 +9,11 @@
 <body>
   
   <?php
-  function sayHi($name, $age){
-    echo "Hello $name, you are $age <br>";
+  function cube($num) {
+    return $num * $num * $num;
   }
-
-  sayHi("Bob", 36 );
+  $cubeResult = cube(4);
+  echo $cubeResult;
   ?>
 </body>
 </html>
