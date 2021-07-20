@@ -9,11 +9,11 @@
 <body>
   
   <?php
-  function sayHi(){
-    echo "Hello User";
+  function sayHi($name){
+    echo "Hello $name";
   }
 
-  sayHi();
+  sayHi("Bob");
   ?>
 </body>
 </html>
