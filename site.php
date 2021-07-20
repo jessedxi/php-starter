@@ -9,6 +9,8 @@
 <body>
   <?php 
   echo "<h1> JD's Site </h1>";
+  echo "<hr>";
+  echo "<p> This is my site</p>";
   ?>
 </body>
 </html>
