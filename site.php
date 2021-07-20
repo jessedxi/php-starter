@@ -11,7 +11,7 @@
     Name: <input type="text" name="name">
     <input type="submit">
     <br>
-    <?php  echo $_GET["name"]?>
+   Your name is <?php  echo $_GET["name"]?>
 </form>
 </body>
 </html>
