@@ -9,14 +9,12 @@
 <body>
   
   <?php
-  $isMale = false;
-  $isTall = true;
-  if ($isMale && $isTall) {
-    echo "You are male or tall";
-  } elseif ($isMale && !$isTall) {
-    echo "You are male but not tall";
-  } else {
-    echo "you are not male";
+  function getMax($num1, $num2) {
+    if($num1 > $num2) {
+      return $num1;
+    } else {
+      return $num2;
+    }
   }
   ?>
 </body>
