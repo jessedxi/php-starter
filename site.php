@@ -10,10 +10,11 @@
   
   <?php
   $isMale = false;
-  if ($isMale) {
-    echo "You are male";
+  $isTall = true;
+  if ($isMale && $isTall) {
+    echo "You're gonna slay on Tinder";
   } else {
-    echo "You are not male";
+    echo "Well, you've got a great personality.";
   }
   ?>
 </body>
