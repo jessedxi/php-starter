@@ -9,11 +9,12 @@
 <body>
   
   <?php
-  function cube($num) {
-    return $num * $num * $num;
+  $isMale = false;
+  if ($isMale) {
+    echo "You are male";
+  } else {
+    echo "You are not male";
   }
-  $cubeResult = cube(4);
-  echo $cubeResult;
   ?>
 </body>
 </html>
