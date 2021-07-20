@@ -7,8 +7,9 @@
   <title>Document</title>
 </head>
 <body>
-  <?php 
-  echo floor(3.3);
-  ?>
+  <?php ?>
+  <form action="site.php" method="get">
+    Name: <input type="text" name="name">
+</form>
 </body>
 </html>
