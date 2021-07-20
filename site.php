@@ -8,10 +8,12 @@
 </head>
 <body>
   <?php 
-  echo "There once was a man named George <br>";
-  echo "He was 70 years old <br>";
-  echo "He really liked the name George <br>";
-  echo "But didn't like being 70 <br>;"
+  $characterName = "John";
+  $characterAge = 35;
+  echo "There once was a man named John <br>";
+  echo "He was 35 years old <br>";
+  echo "He really liked the name John <br>";
+  echo "But didn't like being 35 <br>";
   ?>
 </body>
 </html>
