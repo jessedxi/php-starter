@@ -8,6 +8,7 @@
 </head>
 <body>
   <?php
+  $friends = array("Kevin", "Karen", "Oscar", "Jim");
   ?>
 </body>
 </html>
