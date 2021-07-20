@@ -8,9 +8,7 @@
 </head>
 <body>
   <?php 
-  $phrase = "Giraffe Academy";
-
-  echo substr($phrase, 8, 3);
+  echo floor(3.3);
   ?>
 </body>
 </html>
