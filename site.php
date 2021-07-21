@@ -11,8 +11,7 @@
 
 
 <?php
-// comment example
-echo "Comments are fun!";
+
 ?>
 </body>
 </html>
