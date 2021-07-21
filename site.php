@@ -32,7 +32,9 @@ switch ($grade) {
     case "F":
         echo "You failed!";
         break;
-
+    default:
+        echo "Invalid Grade";
+        break;
 }
 ?>
 </body>
