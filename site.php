@@ -11,11 +11,15 @@
 
 
 <?php
-$index = 6;
-do {
+$index = 1;
+while ($index <= 5) {
     echo "$index <br>";
     $index++;
-} while ($index <= 5);
+}
+
+for ($i = 1; $i <= 5; $i++) {
+    echo "$i <br>";
+}
 ?>
 </body>
 </html>
