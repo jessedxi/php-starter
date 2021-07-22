@@ -10,19 +10,14 @@
 
 <body>
 
-
-
-  <?php include "header.html" ?>
   <?php
-$title = "My First Post";
-$author = "Jesse";
-$wordCount = 400;
-include "article-header.php"
+class Book
+{
+ public $title;
+ public $author;
+ public $pages;
+}
 ?>
-  <?php include "useful-tools.php";
-sayHi("Jesse");
-?>
-  <?php include "footer.html" ?>
 </body>
 
 </html>
