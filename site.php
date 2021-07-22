@@ -11,7 +11,12 @@
 
 
 <?php include "header.html"?>
-<p> Hello World! </p>
+<?php
+$title = "My First Post";
+$author = "Jesse";
+$wordCount = 400;
+include "article-header.php"
+?>
 <?php include "footer.html"?>
 </body>
 </html>
