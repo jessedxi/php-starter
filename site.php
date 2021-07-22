@@ -11,26 +11,22 @@
 <body>
 
   <?php
-class Book
+class Student
 {
- public $title;
- public $author;
- public $pages;
+ public $name;
+ public $major;
+ public $gpa;
 
- public function __construct($aTitle, $aAuthor, $aPages)
+ public function __construct($name, $major, $gpa)
  {
-  $this->title = $aTitle;
-  $this->author = $aAuthor;
-  $this->pages = $aPages;
+  $this->name = $name;
+  $this->major = $major;
+  $this->gpa = $gpa;
  }
 }
 
-$book1 = new Book("Harry Potter", "Rowling", 400);
-$book2 = new Book("Lord of the Rings", "Tolkien", 700);
-
-echo $book1->title;
-echo $book2->author;
-
+$book1 = new Student("Jim", "Business", 2.8);
+$book2 = new Student("Pam", "Art", 3.6);
 ?>
 </body>
 
