@@ -17,6 +17,9 @@ class Book
  public $author;
  public $pages;
 }
+
+$book1 = new Book;
+
 ?>
 </body>
 
