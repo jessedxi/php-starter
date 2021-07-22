@@ -16,6 +16,11 @@ class Book
  public $title;
  public $author;
  public $pages;
+
+ public function __construct()
+ {
+  echo "New Book Created!";
+ }
 }
 
 $book1 = new Book;
@@ -27,11 +32,6 @@ $book2 = new Book;
 $book2->title = "Lord of the Rings";
 $book2->author = "Tolkien";
 $book2->pages = 700;
-
-function __construct()
-{
- echo "New Book Created!";
-}
 
 echo $book1->title;
 echo $book2->author;
