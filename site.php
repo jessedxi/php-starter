@@ -14,11 +14,14 @@
 
   <?php include "header.html" ?>
   <?php
-  $title = "My First Post";
-  $author = "Jesse";
-  $wordCount = 400;
-  include "article-header.php"
-  ?>
+$title = "My First Post";
+$author = "Jesse";
+$wordCount = 400;
+include "article-header.php"
+?>
+  <?php include "useful-tools.php";
+sayHi("Jesse");
+?>
   <?php include "footer.html" ?>
 </body>
 
