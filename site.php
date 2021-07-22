@@ -17,21 +17,16 @@ class Book
  public $author;
  public $pages;
 
- public function __construct()
+ public function __construct($aTitle, $aAuthor, $aPages)
  {
-  echo "New Book Created!";
+  $this->title = $aTitle;
+  $this->author = $aAuthor;
+  $this->pages = $aPages;
  }
 }
 
-$book1 = new Book;
-$book1->title = "Harry Potter";
-$book1->author = "JK Rowling";
-$book1->pages = 400;
-
-$book2 = new Book;
-$book2->title = "Lord of the Rings";
-$book2->author = "Tolkien";
-$book2->pages = 700;
+$book1 = new Book("Harry Potter", "Rowling", 400);
+$book2 = new Book("Lord of the Rings", "Tolkien", 700);
 
 echo $book1->title;
 echo $book2->author;
