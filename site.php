@@ -10,8 +10,8 @@
 
 
 
-<?php
-
-?>
+<?php include "header.html"?>
+<p> Hello World! </p>
+<?php include "footer.html"?>
 </body>
 </html>
