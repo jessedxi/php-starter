@@ -28,6 +28,11 @@ $book2->title = "Lord of the Rings";
 $book2->author = "Tolkien";
 $book2->pages = 700;
 
+function __construct()
+{
+ echo "New Book Created!";
+}
+
 echo $book1->title;
 echo $book2->author;
 
