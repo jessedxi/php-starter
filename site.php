@@ -23,6 +23,8 @@ class Movie
 }
 
 $avengers = new Movie("Avengers", "PG-13");
+
+echo $avengers->rating;
 ?>
 </body>
 
