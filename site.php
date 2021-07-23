@@ -11,31 +11,18 @@
 <body>
 
   <?php
-class Student
+class Movie
 {
- public $name;
- public $major;
- public $gpa;
-
- public function __construct($name, $major, $gpa)
+ public $title;
+ public $rating;
+ public function __construct($title, $rating)
  {
-  $this->name = $name;
-  $this->major = $major;
-  $this->gpa = $gpa;
- }
-
- public function hasHonors()
- {
-  if ($this->gpa >= 3.5) {
-   return "true";
-  }
-  return "false";
+  $this->title = $title;
+  $this->rating = $rating;
  }
 }
 
-$student1 = new Student("Jim", "Business", 2.8);
-$student2 = new Student("Pam", "Art", 3.6);
-echo $student2->hasHonors();
+$avengers = new Movie("Avengers", "PG-13");
 ?>
 </body>
 
