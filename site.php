@@ -23,10 +23,19 @@ class Student
   $this->major = $major;
   $this->gpa = $gpa;
  }
+
+ public function hasHonors()
+ {
+  if ($this->gpa >= 3.5) {
+   return "true";
+  }
+  return "false";
+ }
 }
 
-$book1 = new Student("Jim", "Business", 2.8);
-$book2 = new Student("Pam", "Art", 3.6);
+$student1 = new Student("Jim", "Business", 2.8);
+$student2 = new Student("Pam", "Art", 3.6);
+echo $student1->hasHonors();
 ?>
 </body>
 
