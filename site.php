@@ -33,13 +33,17 @@ class ItalianChef extends Chef
  {
   echo "The chef makes pasta <br>";
  }
+ public function makeSpecialDish()
+ {
+  echo "The chef makes chicken parm";
+ }
 }
 
 $chef = new Chef();
-$chef->makeChicken();
+$chef->makeSpecialDish();
 
 $italianChef = new ItalianChef();
-$italianChef->makePasta();
+$italianChef->makeSpecialDish();
 
 ?>
 </body>
