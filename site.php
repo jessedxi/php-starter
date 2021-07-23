@@ -35,7 +35,7 @@ class Student
 
 $student1 = new Student("Jim", "Business", 2.8);
 $student2 = new Student("Pam", "Art", 3.6);
-echo $student1->hasHonors();
+echo $student2->hasHonors();
 ?>
 </body>
 
